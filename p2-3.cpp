@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
 int num ;
-cout << "Entercnumber" << endl;
+cout << "Enter Number:-" << endl;
 cin>>num;
 if(num == 1){
  cout << "Prime" << endl;
