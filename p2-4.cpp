@@ -10,15 +10,15 @@ int main(){
     for(int i =0 ; i<10; i++){
     sum = number[i] + sum;
     }
-    while(count < 10){
+    
     for(int k = 0 ; k < 10-count; k++){
     if(number[k] > number[k-1]){
     int a = number[k];
     number[k] = number[k+1];
     number[k+1] = a;
-    }
     }count++;
-    }
+    };
+    
     avg = sum / 10;
     for(int j = 0; j < 10; j++){
     cout<<number[j]<<" ";
