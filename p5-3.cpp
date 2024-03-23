@@ -2,7 +2,7 @@
 
 using namespace std;
 
-class Employee{
+class converter{
     public:
     double cm;
    
@@ -22,7 +22,7 @@ class Employee{
 
 int main()
 {
-      Employee e1;
+      converter e1;
       
       cout<<"Enter Centimeter :- ";
       cin>>e1.cm;
