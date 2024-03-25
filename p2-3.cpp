@@ -11,4 +11,5 @@ if(num == 1){
 }else {
 cout << " Not Prime" << endl;
 }
+ return 0;
 }
