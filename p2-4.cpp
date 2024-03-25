@@ -2,7 +2,7 @@
 #include <iomanip>
 using namespace std;
 int main(){
-    float number[]={4,1,2,6,8,3,7,5,10,9};
+    float number[10]={4,1,2,6,8,3,7,5,10,9};
     float sum;
     float avg;
     int count = 1;
@@ -10,15 +10,15 @@ int main(){
     for(int i =0 ; i<10; i++){
     sum = number[i] + sum;
     }
-    
+    while(count<10-1){
     for(int k = 0 ; k < 10-count; k++){
-    if(number[k] > number[k-1]){
+    if(number[k] > number[k+1]){
     int a = number[k];
     number[k] = number[k+1];
     number[k+1] = a;
+    }
     }count++;
-    };
-    
+    }
     avg = sum / 10;
     for(int j = 0; j < 10; j++){
     cout<<number[j]<<" ";
@@ -26,5 +26,6 @@ int main(){
     
     cout << "Sum is = " <<sum<< endl;
     cout << "Average of 10 Number = "<<avg << endl;
+    
         return 0;
 }
