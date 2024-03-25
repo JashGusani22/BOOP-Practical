@@ -15,5 +15,5 @@ int main(){
     Ans = Multiplication(a,b);
     
     cout<<"Give Number of Multiplication is = "<<Ans;
-    
+    return 0;
 }
