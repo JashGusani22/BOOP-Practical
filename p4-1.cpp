@@ -1,20 +1,20 @@
 #include<iostream>
 using namespace std;
-int a, b;
-    void sort(int &j , int &k){
-        if(a>b){
-        int temp = a;
-        a = b;
-        b = temp ;
-        }
+    void swap(int &j , int &k){
+        
+        int temp = j;
+        j = k;
+        k = temp ;
+        
     }
 int main()
 {
+   int a,b;
     cout << "Enter value of a  :  "<<endl ;
     cin>>a;
     cout << "Enter value of b : " << endl;
     cin>>b;
-    sort(a,b);
+    swap(a,b);
     cout << "a = " <<a<<endl;
     cout << "b = " <<b<<endl;
     return 0;
