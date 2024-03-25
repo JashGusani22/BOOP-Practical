@@ -3,11 +3,11 @@
 using namespace std;
 int max(int x , int y , int z){
         if(x > y && x > z){
-            cout << "a "<<x<<" is Greater" << endl;
+            cout <<x<<" is Greater" << endl;
         }else if(y > x && y > z){
-            cout << "b " <<y<<" is Greater" << endl;
+            cout <<y<<" is Greater" << endl;
         }else if(z > x && z > y){
-            cout << "C " <<z<<" is Greater" << endl;
+            cout <<z<<" is Greater" << endl;
         }
 }
 string max(string x , string y , string z){
@@ -15,11 +15,11 @@ string max(string x , string y , string z){
     int lb=y.length(); 
     int lc=z.length();
         if(la > lb && la > lc){
-  return x;
+              return x;
         }else if(lb > la && lb > lc){
-      return y;
+              return y;
         }else if(lc > la && lc > lb){
-            return z;
+              return z;
         }
 }
 
@@ -28,8 +28,6 @@ int main()
     string a,b,c;
     cout << "Enter Three string - " ;
     cin>>a>>b>>c;
-    
-      
     cout << max(a,b,c)<< endl;
     return 0;
 }
