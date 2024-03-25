@@ -15,27 +15,14 @@ class Employee{
 int main()
 {
       Employee e1;
-     cout << "Enter Employee Number " ;
-     cin>>e1.Number;
-     cout << endl;
-     
-     cout << "Enter Employee Name " ;
-     cin>>e1.EN;
-        cout << endl;
-     
-       cout << "Enter Employee Basic " ;
-     cin>>e1.Basic;
-        cout << endl;
-     
-       cout << "Enter Employee DA " ;
-     cin>>e1.DA;
-        cout << endl;
-       cout << "Enter Employee IT " ;
-     cin>>e1.IT;
-        cout << endl;
-       cout << "Enter Employee NS " ;
-     cin>>e1.NS;
-        cout << endl;
+      
+      e1.Number = 123456789;
+      e1.EN = "Jash";
+      e1.Basic = 89;
+      e1.DA = 21;
+      e1.IT =10 ;
+      e1.NS = 20000;
+      
      cout << "Employee Number = " << e1.Number<<endl;
      cout << "Employee Name = " << e1.EN<<endl;
      cout << "Employee Basic = " << e1.Basic<<endl;
