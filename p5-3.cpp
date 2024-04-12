@@ -12,7 +12,7 @@ class converter{
    double cmTofe(double cm){
        return cm*0.0328084;
    }
-   double cmTome(double ){
+   double cmTome(double cm){
        return cm*0.01;
    }
    double cmTokil(double cm){
